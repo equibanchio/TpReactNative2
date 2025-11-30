@@ -24,7 +24,7 @@ o
 
 npm start
 
-Descripción breve
+Descripción breve:
 
 `GestorUsuariosPrueba` es una app Expo con React Native que consume la API pública de https://reqres.in para:
 
@@ -41,12 +41,12 @@ Características principales:
 - Paginación simple: botones Anterior / Siguiente que despachan `fetchUsers(page)`.
 - Se incluyen usuarios creados localmente en la página donde se crearon para que permanezcan visibles al navegar entre páginas durante la sesión.
 
-Notas
+Notas:
 
 - Las llamadas a la API incluyen un header `x-api-key: reqres-free-v1` tal como se configuró en el proyecto.
 - La persistencia local de usuarios creados es en memoria durante la sesión (no se guarda en disco).
 
-Archivos clave
+Archivos clave:
 
 - `src/features/users/usersSlice.js` — thunks y estado global (GET/POST, manejo de errores, persistencia local por página).
 - `src/components/UserList.js` — componente de presentación de la lista y paginador.
