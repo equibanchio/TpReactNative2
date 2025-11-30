@@ -11,6 +11,7 @@ Instalación
 1. Abrir una terminal y situarse en el directorio del proyecto:
 
 2. Instalar dependencias:
+
 npm install
 
 npm install @reduxjs/toolkit react-redux
