@@ -16,7 +16,7 @@ npm install
 
 npm install @reduxjs/toolkit react-redux
 
-Ejecución
+Ejecución:
 
 npx expo start -c
 
